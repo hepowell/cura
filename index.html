@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nova+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>curatoriiium</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img id="logo-img" src="cura-no-bg.png" alt="logo">
+        </div>
+        <nav>
+            <a href="book.html"><button class="contact">BOOK</button></a>
+            <button onclick="playSong()">PLAY</button>
+            <a href=#work><button class="work">WORK</button></a>
+            <a href="#about"><button class="about">ABOUT</button></a>
+            <button class="stop">...</button>
+            <button class="soc">SOC</button>
+            
+        </nav>
+    </div>
+    <section class="hero">
+        <marquee>we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art.</marquee>
+        <div class="title">
+            <p>
+                <span class="animated-letter">C</span>
+                <span class="animated-letter">U</span>
+                <span class="animated-letter">R</span>
+                <span class="animated-letter">A</span>
+                <span class="animated-letter">T</span>
+                <span class="animated-letter">O</span>
+                <span class="animated-letter">R</span>
+                <span class="animated-letter">I</span>
+                <span class="animated-letter">I</span>
+                <span class="animated-letter">I</span>
+                <span class="animated-letter">U</span>
+                <span class="animated-letter">M</span>
+        </div>
+        <marquee onMouseOver="this.stop()" onMouseOut="this.start()" behavior="" direction="right">we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art. we GET art.</marquee>
+        <div id="tag-line">
+            <div>BOTH <span style="cursor:url(waste.png), auto">REMAIN, </span>ART OR ASHES</div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="photos">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </section>
+    <section id="work">
+        <article>
+            
+        </article>
+    </section>
+    <section id="play">
+        <ul>
+            <li><a href="https://www.shagey.com/" target="_blank">sara hagale</a></li>
+            <li><a href="https://www.vincent-chung.com/" target="_blank">vincent chung</a></li>
+            <li><a href="https://www.kellywearstler.com/" target="_blank">kelly wearstler</a></li>
+            <li><a href="https://www.carriemarill.com/" target="_blank">carrie marill</a></li>
+            <li><a href="https://haddou-dufourcq.com/" target="_blank">studio haddou</a></li>
+            <li><a href="https://www.louros.fr/" target="_blank">lou ros</a></li>
+            <li>nicole miller</li>
+            <li><a href="https://www.denisseariana.com/" target="_blank">denisse peréz</a></li>
+            <li><a href="https://www.ginobelassen.com/" target="_blank">gino belassen</a></li>
+            <li><a href="https://www.snarkitecture.com/" target="_blank">snarkitecture</a></li>
+            <li><a href="https://www.lanewalkup.com/" target="_blank">lane walkup</a></li>
+            <li><a href="http://www.emmawitter.co.uk/" target="_blank">emma witter</a></li>
+            <li><a href="https://cococapitan.co.uk/" target="_blank">coco capitán</a></li>
+            <li><a href="https://www.thomas-stokes.com/" target="_blank">thomas stokes iii</a></li>
+            <li><a href="http://www.estherruiz.com/" target="_blank">esther ruiz</a></li>
+            <li>brad feuerhelm</li>
+            <li><a href="https://www.richie-culver.com/" target="_blank">richie culver</a></li>
+            <li><a href="https://www.johnmckie.co.uk/" target="_blank">john mckie</a></li>
+            <li><a href="https://www.naudline.com/" target="_blank">naudline cluvie pierre</a></li>
+            <li>malena bozzini</li>
+        </ul>
+    </section>
+    <section id="about">
+        <article>
+            <p class="bio">after spending ten years in the desert, you start to see mirages; of things you used to love being surrounded by every day, of seasons, of people you moved away from ... you remember what it was like to drive by the ocean every day, feel the energy shift of the weather and be surrounded by history.</p>
+            <p class="bio">i'm in love with music, learning new languages, photography, art collection, traveling, business, yoga, and i'm really good at only half-finishing books then picking them back up a year later.</p>
+        </article>
+    </section>
+    <footer>
+        <a href="https://www.hereticagency.co"> © heretic co.</a>
+
+    </footer>
+    <audio id="myAudio">
+        <source src="The Man from Waco.mp3" type="audio/mpeg">
+    </audio>
+    <script src="app.js"></script>
+</body>
+</html>

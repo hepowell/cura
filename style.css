@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-color: #f7935d;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #f7935d;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    cursor: url(assets/cursor\ \(3\).png), auto;
+    background-color: #FAFAFA;
+    color: #0e1111;
+}
+
+#logo-img {
+    width: auto;
+    height: 180px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1em;
+    overflow: visible;
+}
+
+button {
+    width: 80px;
+    height: auto;
+    padding: 12px;
+    box-shadow: -3px -3px black;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: 'Nova Mono', monospace;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+}
+
+button:hover {
+    box-shadow: 3px 3px black inset;
+    color: #f7935d;
+    cursor: url(assets/cursor\ \(3\).png), auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 8vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+marquee {
+    margin: 20px;
+    border: solid black;
+    
+}
+
+#tag-line {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bone-cursor:hover {
+    cursor: none;
+}
+
+#work {
+    margin: 20px;
+}
+
+#play {
+    margin: 30px;
+}
+
+.bio {
+    margin: auto 200px;
+    padding-bottom: 15px;
+}
+
+ul {
+    margin: 30px;
+    list-style: lower-greek;
+    font-size: 18px;
+}
+
+li {
+    border-bottom: .1px solid black;
+    min-width: 50%;
+}
+
+li:hover {
+    text-decoration: line-through;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #f7935d;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: url(assets/cursor\ \(3\).png), auto;
+    color:#0e1111;
+}
+
+.animated-letter {
+    display: inline-block;
+    animation: rotate 2s ;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+  }
