@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.hidden-paragraph {
+    visibility: hidden;
+}
+
+.first-letter {
+    visibility: visible;
+}
+
+.hidden-paragraph:hover {
+    visibility: visible;
+    cursor: crosshair;
+}
+
+#paragraph1 {
+    letter-spacing: 5px;
+    line-height: 25px;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.hidden-paragraph {
+    visibility: hidden;
+  }
+  
+  .visible-paragraph {
+    visibility: visible;
+  }
+  
+  .first-letter {
+    animation: bounceAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes bounceAnimation {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(
+        calc(-50% + (random() - 0.5) * 200px),
+        calc(-50% + (random() - 0.5) * 200px)
+      ) scale(1.2);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+  
