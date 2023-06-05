@@ -9,5 +9,5 @@ function playSong() {
     setTimeout(function(){
         const audio = document.getElementById("myAudio");
         audio.play();
-    }, 4000);
+    }, 1000);
 }

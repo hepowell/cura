@@ -30,7 +30,6 @@ body {
     align-items: center;
     margin: 0 auto;
     padding: 0 1em;
-    overflow: visible;
 }
 
 button {
@@ -109,7 +108,6 @@ li:hover {
 
 footer {
     text-align: center;
-    background-color: #f7935d;
     padding: 5px;
 }
 
@@ -123,6 +121,11 @@ a {
     display: inline-block;
     animation: rotate 2s ;
   }
+
+
+.animated-letter:hover {
+    transform: rotate(180deg);
+}
 
   @keyframes rotate {
     0% {
