@@ -8,6 +8,18 @@ body {
     font-family: 'Anonymous Pro', monospace;
 }
 
+#logo-img {
+    width: auto;
+    height: 180px;
+    margin-left: -30px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+#logo-img:hover {
+    cursor: url(key.png), auto;
+}
+
 .hidden-paragraph {
     visibility: hidden;
 }
@@ -23,9 +35,10 @@ body {
 
 #paragraph1 {
     letter-spacing: 5px;
-    line-height: 25px;
+    line-height: 28px;
     text-align: center;
     margin: 20px 20px;
+    font-size: 28px;
 }
 
 .hidden-paragraph {
